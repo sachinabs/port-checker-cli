@@ -1,5 +1,3 @@
-
-```
 # 🛠️ port-checker-cli
 
 A cross-platform Node.js utility to **list busy ports** and **kill processes** on specific ports — works on **Windows**, **macOS**, and **Linux**.
@@ -12,7 +10,6 @@ A cross-platform Node.js utility to **list busy ports** and **kill processes** o
 - 🔪 Kill a process running on a specific port  
 - 💻 Works on Windows, macOS, and Linux  
 - 🧱 Use as a CLI tool **or** as a Node.js module  
-- 📦 Easy to install and use  
 
 ---
 
@@ -20,18 +17,18 @@ A cross-platform Node.js utility to **list busy ports** and **kill processes** o
 
 ```bash
 npm install -g port-checker-cli
-```
+````
 
-> 🔧 You can also use it locally with `npx`:
-> ```bash
-> npx port-checker-cli --list
-> ```
+🔧 You can also use it locally with npx
+```bash
+npx port-checker-cli --list
+```
 
 ---
 
 ## Usage
 
-### ▶️ CLI
+### CLI
 
 #### List all busy ports:
 
@@ -47,7 +44,7 @@ port-check --kill 3000
 
 ---
 
-### 💡 As a Module
+### As a Module
 
 You can also use it inside Node.js projects:
 
@@ -68,8 +65,10 @@ const { listBusyPorts, killPort } = require('port-checker-cli');
 
 Returns a list of busy ports within a given range.
 
-- **start** (number) – starting port (default: 1)  
-- **end** (number) – ending port (default: 65535)  
+- **start** (number) – starting port (default: 1)
+    
+- **end** (number) – ending port (default: 65535)
+    
 
 ### `killPort(port)`
 
@@ -85,5 +84,4 @@ MIT License
 
 ## ✨ Author
 
-Created with ❤️ by [ANISH BALA SACHIN]
-```
+Created with ❤️ by [Anish Bala Sachin](https://github.com/sachinabs)
