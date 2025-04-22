@@ -1,6 +1,6 @@
 {
   "name": "port-fix-cli",
-  "version": "1.0.04",
+  "version": "1.0.05",
   "main": "src/index.js",
  "bin": {
   "port-check": "./bin/port-check.js"

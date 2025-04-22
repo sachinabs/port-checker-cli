@@ -18,6 +18,8 @@ A cross-platform Node.js utility to **list busy ports** and **kill processes** o
 ```bash
 npm i -g port-fix-cli
 ````
+💡 Note for Linux users:
+If you get a permission error, use "sudo npm i -g port-fix-cli"
 
 🔧 You can also use it locally with npx
 ```bash
