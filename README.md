@@ -1,4 +1,4 @@
-# 🛠️ port-checker-cli
+# 🛠️ port-fix-cli
 
 A cross-platform Node.js utility to **list busy ports** and **kill processes** on specific ports — works on **Windows**, **macOS**, and **Linux**.
 
@@ -16,12 +16,12 @@ A cross-platform Node.js utility to **list busy ports** and **kill processes** o
 ## 📦 Installation
 
 ```bash
-npm install -g port-checker-cli
+npm i -g port-fix-cli
 ````
 
 🔧 You can also use it locally with npx
 ```bash
-npx port-checker-cli --list
+npx port-fix-cli --list
 ```
 
 ---
@@ -49,7 +49,7 @@ port-check --kill 3000
 You can also use it inside Node.js projects:
 
 ```js
-const { listBusyPorts, killPort } = require('port-checker-cli');
+const { listBusyPorts, killPort } = require('port-fix-cli');
 
 (async () => {
   await listBusyPorts([3000, 3010]); // Check ports 3000–3010

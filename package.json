@@ -1,6 +1,6 @@
 {
-  "name": "port-checker-cli",
-  "version": "1.0.0",
+  "name": "port-fix-cli",
+  "version": "1.0.03",
   "main": "index.js",
  "bin": {
   "port-check": "./bin/port-check.js"
@@ -12,12 +12,24 @@
     "test": "jest"
   },
   "keywords": [
-    "port",
-    "cli",
-    "kill-port",
-    "node",
-    "dev-tool"
-  ],
+  "port",
+  "cli",
+  "kill port",
+  "free port",
+  "port checker",
+  "busy ports",
+  "check port",
+  "port scanner",
+  "port fix",
+  "dev tool",
+  "development",
+  "network",
+  "netstat alternative",
+  "process killer",
+  "port conflict",
+  "node cli",
+  "cross-platform"
+],
   "author": "Anish bala sachin",
   "license": "MIT",
   "description": "",
